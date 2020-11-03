@@ -37,7 +37,7 @@
   <meta name="description" content="Fullstack Softwareentwickler">
 
   
-  <link rel="alternate" hreflang="de-de" href="https://lorenmucha.github.io/">
+  <link rel="alternate" hreflang="de-de" href="https://lorenmucha.de/">
 
   
 
@@ -92,8 +92,6 @@
       
     
 
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
     
 
     
@@ -247,10 +245,50 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9WR24GBYYM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-9WR24GBYYM', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
   
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   
 
   
@@ -258,10 +296,10 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu31c0e4609dff6f3cba4eb0e9d7fef2e2_1896_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu31c0e4609dff6f3cba4eb0e9d7fef2e2_1896_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://lorenmucha.github.io/">
+  <link rel="canonical" href="https://lorenmucha.de/">
 
   
   
@@ -277,10 +315,10 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Loren Mucha">
-  <meta property="og:url" content="https://lorenmucha.github.io/">
+  <meta property="og:url" content="https://lorenmucha.de/">
   <meta property="og:title" content="Loren Mucha">
-  <meta property="og:description" content="Fullstack Softwareentwickler"><meta property="og:image" content="https://lorenmucha.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://lorenmucha.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="de-de">
+  <meta property="og:description" content="Fullstack Softwareentwickler"><meta property="og:image" content="https://lorenmucha.de/images/icon_hu31c0e4609dff6f3cba4eb0e9d7fef2e2_1896_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://lorenmucha.de/images/icon_hu31c0e4609dff6f3cba4eb0e9d7fef2e2_1896_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="de-de">
   
     <meta property="og:updated_time" content="2020-10-01T14:38:58&#43;02:00">
   
@@ -293,10 +331,10 @@
   "@type": "WebSite",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://lorenmucha.github.io/?q={search_term_string}",
+    "target": "https://lorenmucha.de?q={search_term_string}",
     "query-input": "required name=search_term_string"
   },
-  "url": "https://lorenmucha.github.io/"
+  "url": "https://lorenmucha.de"
 }
 </script>
 
@@ -322,8 +360,6 @@
 
   
   
-  
-    <script>window.wcDarkLightEnabled = true;</script>
   
   
     <script>const isSiteThemeDark = false;</script>
@@ -608,23 +644,6 @@
 
       
       
-      <li class="nav-item dropdown theme-dropdown">
-        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fas fa-moon" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu">
-          <a href="#" class="dropdown-item js-set-theme-light">
-            <span>Light</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-dark">
-            <span>Dark</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-auto">
-            <span>Automatic</span>
-          </a>
-        </div>
-      </li>
-      
 
       
 
@@ -747,10 +766,8 @@
         
         
         
-          
-        
         <li>
-          <a href="/mailto:lorenmucha@gmail.com" >
+          <a href="mailto:lorenmucha@gmail.com" >
             <i class="fas fa-envelope big-icon"></i>
           </a>
         </li>
@@ -767,7 +784,7 @@
           
         
         <li>
-          <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
+          <a href="https://twitter.com/SandSloper" target="_blank" rel="noopener">
             <i class="fab fa-twitter big-icon"></i>
           </a>
         </li>
@@ -782,7 +799,7 @@
           
         
         <li>
-          <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+          <a href="https://scholar.google.co.uk/citations?user=d52E-VcAAAAJ" target="_blank" rel="noopener">
             <i class="ai ai-google-scholar big-icon"></i>
           </a>
         </li>
@@ -811,7 +828,7 @@
   <div class="col-12 col-lg-8">
 
     
-    <h1>Hallo 👏</h1>
+    <h1>Hallo</h1>
 
     <p>Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.</p>
@@ -824,7 +841,9 @@
         <h3>Interessen</h3>
         <ul class="ul-interests">
           
-          <li>sportbegeistert (MTB, Klettern, Bouldern)</li>
+          <li>Sportklettern</li>
+          
+          <li>MTB</li>
           
           <li>Reisen</li>
           
@@ -842,24 +861,16 @@
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">PhD in Artificial Intelligence, 2012</p>
-              <p class="institution">Stanford University</p>
+              <p class="course">Master of Science in Geoinformatik, 2017</p>
+              <p class="institution">TU Dresden</p>
             </div>
           </li>
           
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">MEng in Artificial Intelligence, 2009</p>
-              <p class="institution">Massachusetts Institute of Technology</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">BSc in Artificial Intelligence, 2008</p>
-              <p class="institution">Massachusetts Institute of Technology</p>
+              <p class="course">Bachelor of Science in Geographie, 2015</p>
+              <p class="institution">TU Dresden</p>
             </div>
           </li>
           
@@ -920,7 +931,7 @@
 
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
-    <h1>Experience</h1>
+    <h1>Erfahrung</h1>
     
   </div>
   <div class="col-12 col-lg-8">
@@ -964,7 +975,7 @@
 <ul>
 <li>Entwicklung und Design von Webservices</li>
 <li>Frontends</li>
-<li>Deploying</li>
+<li>DevOps</li>
 <li>Penetrationstests</li>
 </ul></div>
           </div>
@@ -991,8 +1002,8 @@
       <div class="col py-2">
         <div class="card">
           <div class="card-body">
-            <h4 class="card-title exp-title text-muted mt-0 mb-1">Professor</h4>
-            <h4 class="card-title exp-company text-muted my-0">University X</h4>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Wissenschaftlicher Mitarbeiter</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.ioer.de" target="_blank" rel="noopener">Leibniz Institut für ökologische Raumentwicklung</a></h4>
             <div class="text-muted exp-meta">
               Jan 2016 –
               
@@ -1000,10 +1011,10 @@
               
               
                 <span class="middot-divider"></span>
-                <span>California</span>
+                <span>Dresden</span>
               
             </div>
-            <div class="card-text">Taught electronic engineering and researched semiconductor physics.</div>
+            <div class="card-text"></div>
           </div>
         </div>
       </div>
@@ -1070,122 +1081,61 @@
   
 
   
-</div>
-
-    </div>
-  </section>
-
   
   
   
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  <section id="accomplishments" class="home-section wg-accomplishments   "  >
-    <div class="container">
-      
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Accomplish­ments</h1>
+  <div class="col-12 col-sm-4">
     
+    <div class="featurette-icon"><img src="/images/icon-pack/spring.svg" alt="spring" class="svg-icon svg-baseline"></div>
+    
+    <h3>Spring Boot</h3>
+    <p>80%</p>
   </div>
-  <div class="col-12 col-lg-8">
+  
+  
+  
+  
+  <div class="col-12 col-sm-4">
     
-
+    <div class="featurette-icon"><img src="/images/icon-pack/python.svg" alt="python" class="svg-icon svg-baseline"></div>
     
-    
-      <div class="card experience course">
-        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Neural Networks and Deep Learning</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
-
-            Oct 2018
-            
-          </div>
-
-          
-
-          
-            <a class="card-link" href="https://www.coursera.org" target="_blank" rel="noopener">
-              Zertifikat anzeigen
-            </a>
-          
-        </div>
-      </div>
-    
-      <div class="card experience course">
-        <div class="card-body"><a href="https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">Blockchain Fundamentals</h4></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.edx.org" target="_blank" rel="noopener">edX</a><span class="middot-divider"></span>
-
-            Mar 2018
-            
-          </div>
-
-          
-            <div class="card-text">Formulated informed blockchain models, hypotheses, and use cases.</div>
-          
-
-          
-            <a class="card-link" href="https://www.edx.org" target="_blank" rel="noopener">
-              Zertifikat anzeigen
-            </a>
-          
-        </div>
-      </div>
-    
-      <div class="card experience course">
-        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Object-Oriented Programming in R: S3 and R6 Course</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.datacamp.com" target="_blank" rel="noopener">DataCamp</a><span class="middot-divider"></span>
-
-            Jul 2017
-            
-            – Dec 2017
-            
-          </div>
-
-          
-
-          
-            <a class="card-link" href="https://www.datacamp.com" target="_blank" rel="noopener">
-              Zertifikat anzeigen
-            </a>
-          
-        </div>
-      </div>
-    
-    
+    <h3>Python</h3>
+    <p>70%</p>
   </div>
+  
+  
+  
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><img src="/images/icon-pack/angular.svg" alt="angular" class="svg-icon svg-baseline"></div>
+    
+    <h3>AngularJS</h3>
+    <p>60%</p>
+  </div>
+  
+  
+  
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><img src="/images/icon-pack/postgresql.svg" alt="postgresql" class="svg-icon svg-baseline"></div>
+    
+    <h3>PostgreSQL</h3>
+    <p>60%</p>
+  </div>
+  
+  
+  
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><img src="/images/icon-pack/jenkins.svg" alt="jenkins" class="svg-icon svg-baseline"></div>
+    
+    <h3>Jenkins</h3>
+    <p>80%</p>
+  </div>
+  
 </div>
 
     </div>
@@ -2026,16 +1976,6 @@
     </ul>
 
     
-    <div class="d-none">
-      <input id="map-provider" value="2">
-      <input id="map-lat" value="37.4275">
-      <input id="map-lng" value="-122.1697">
-      <input id="map-dir" value="Gostenhofer Schulgasse, 32, Nürnberg, BY 90443">
-      <input id="map-zoom" value="15">
-      <input id="map-api-key" value="">
-    </div>
-    <div id="map"></div>
-    
 
   </div>
 </div>
@@ -2055,7 +1995,7 @@
   
 
   <p class="powered-by">
-    
+    todo
   </p>
 
   
@@ -2140,8 +2080,6 @@
 
     
     
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
-    
 
     
     
@@ -2195,6 +2133,18 @@
     
 
     
+    
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
     
 
     

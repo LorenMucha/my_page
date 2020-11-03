@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>foss | Loren Mucha</title>
-    <link>https://lorenmucha.github.io/category/foss/</link>
-      <atom:link href="https://lorenmucha.github.io/category/foss/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lorenmucha.de/category/foss/</link>
+      <atom:link href="https://lorenmucha.de/category/foss/index.xml" rel="self" type="application/rss+xml" />
     <description>foss</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>de-de</language><lastBuildDate>Thu, 01 Oct 2020 14:38:58 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>de-de</language><copyright>todo</copyright><lastBuildDate>Thu, 01 Oct 2020 14:38:58 +0200</lastBuildDate>
     <image>
-      <url>https://lorenmucha.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://lorenmucha.de/images/icon_hu31c0e4609dff6f3cba4eb0e9d7fef2e2_1896_512x512_fill_lanczos_center_2.png</url>
       <title>foss</title>
-      <link>https://lorenmucha.github.io/category/foss/</link>
+      <link>https://lorenmucha.de/category/foss/</link>
     </image>
     
     <item>
       <title>IÖR-Monitor</title>
-      <link>https://lorenmucha.github.io/project/ioermonitor/</link>
+      <link>https://lorenmucha.de/project/ioermonitor/</link>
       <pubDate>Thu, 01 Oct 2020 14:38:58 +0200</pubDate>
-      <guid>https://lorenmucha.github.io/project/ioermonitor/</guid>
+      <guid>https://lorenmucha.de/project/ioermonitor/</guid>
       <description>&lt;h2 id=&#34;übersicht&#34;&gt;Übersicht&lt;/h2&gt;
 &lt;p&gt;Bei diesem Projekt handelt es sich um eine&lt;/p&gt;
 &lt;h2 id=&#34;realisierung&#34;&gt;Realisierung&lt;/h2&gt;

@@ -37,7 +37,7 @@
   <meta name="description" content="Fullstack Softwareentwickler">
 
   
-  <link rel="alternate" hreflang="de-de" href="https://lorenmucha.github.io/category/android/">
+  <link rel="alternate" hreflang="de-de" href="https://lorenmucha.de/category/android/">
 
   
 
@@ -92,8 +92,6 @@
       
     
 
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
     
 
     
@@ -247,6 +245,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9WR24GBYYM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-9WR24GBYYM', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -258,10 +294,10 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu31c0e4609dff6f3cba4eb0e9d7fef2e2_1896_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu31c0e4609dff6f3cba4eb0e9d7fef2e2_1896_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://lorenmucha.github.io/category/android/">
+  <link rel="canonical" href="https://lorenmucha.de/category/android/">
 
   
   
@@ -277,10 +313,10 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Loren Mucha">
-  <meta property="og:url" content="https://lorenmucha.github.io/category/android/">
+  <meta property="og:url" content="https://lorenmucha.de/category/android/">
   <meta property="og:title" content="android | Loren Mucha">
-  <meta property="og:description" content="Fullstack Softwareentwickler"><meta property="og:image" content="https://lorenmucha.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://lorenmucha.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="de-de">
+  <meta property="og:description" content="Fullstack Softwareentwickler"><meta property="og:image" content="https://lorenmucha.de/images/icon_hu31c0e4609dff6f3cba4eb0e9d7fef2e2_1896_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://lorenmucha.de/images/icon_hu31c0e4609dff6f3cba4eb0e9d7fef2e2_1896_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="de-de">
   
     <meta property="og:updated_time" content="2020-10-01T14:38:58&#43;02:00">
   
@@ -308,8 +344,6 @@
 
   
   
-  
-    <script>window.wcDarkLightEnabled = true;</script>
   
   
     <script>const isSiteThemeDark = false;</script>
@@ -594,23 +628,6 @@
 
       
       
-      <li class="nav-item dropdown theme-dropdown">
-        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fas fa-moon" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu">
-          <a href="#" class="dropdown-item js-set-theme-light">
-            <span>Light</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-dark">
-            <span>Dark</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-auto">
-            <span>Automatic</span>
-          </a>
-        </div>
-      </li>
-      
 
       
 
@@ -684,7 +701,7 @@
   
 
   <p class="powered-by">
-    
+    todo
   </p>
 
   
@@ -768,8 +785,6 @@
     
 
     
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
     
 
     
