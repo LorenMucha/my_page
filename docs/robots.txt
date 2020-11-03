@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://lorenmucha.github.io/sitemap.xml
