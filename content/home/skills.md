@@ -8,25 +8,33 @@ weight = 30  # Order that this section will appear.
 title = "Skills"
 subtitle = ""
 
-# Showcase personal skills or business features.
-# 
-# Add/remove as many `[[feature]]` blocks below as you like.
-# 
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
-# Uncomment to use emoji icons.
-# [[feature]]
-#  icon = ":smile:"
-#  icon_pack = "emoji"
-#  name = "Emojiness"
-#  description = "100%"  
+[[feature]]
+  icon = "spring"
+  icon_pack = "custom"
+  name = "Spring Boot"
+  description = "80%"
 
-# Uncomment to use custom SVG icons.
-# Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
-# Reference the SVG icon name (without `.svg` extension) in the `icon` field.
-# [[feature]]
-#  icon = "your-custom-icon-name"
-#  icon_pack = "custom"
-#  name = "Surfing"
-#  description = "90%"
+[[feature]]
+  icon = "python"
+  icon_pack = "custom"
+  name = "Python"
+  description = "70%"
 
+[[feature]]
+  icon = "angular"
+  icon_pack = "custom"
+  name = "AngularJS"
+  description = "60%"
+
+[[feature]]
+  icon = "postgresql"
+  icon_pack = "custom"
+  name = "PostgreSQL"
+  description = "60%"
+
+[[feature]]
+  icon = "jenkins"
+  icon_pack = "custom"
+  name = "Jenkins"
+  description = "80%"
 +++

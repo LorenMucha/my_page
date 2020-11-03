@@ -26,4 +26,24 @@ image:
   focal_point: "Center"
   preview_only: false
   
+gallery_item:
+- album: Screenshots
+  image: screenshot_climbing_diary/barchart.png
+  caption: Auswertung als _Balkendiagramm_
+- album: Screenshots
+  image: screenshot_climbing_diary/linechart.png
+  caption: Auswertung als _Liniendiagramm_
+- album: Screenshots
+  image: screenshot_climbing_diary/tabelle.png
+  caption: Auswertung als _Tabelle_
+- album: Screenshots
+  image: screenshot_climbing_diary/filter.png
+  caption: _Filter_ Funktionalität
+- album: Screenshots
+  image: screenshot_climbing_diary/projects.png
+  caption: Abspeichern und natürlich *ticken* der Projekte <i class="far fa-smile" style="color:yellow;"></i>
 ---
+
+Test
+
+{{< gallery album="Screenshots">}}

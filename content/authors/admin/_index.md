@@ -12,21 +12,19 @@ role: Fullstack Softwareentwickler
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- sportbegeistert (MTB, Klettern, Bouldern)
+- Sportklettern
+- MTB
 - Reisen
 - Klavierspielen
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: Master of Science in Geoinformatik
+    institution: TU Dresden
+    year: 2017
+  - course: Bachelor of Science in Geographie
+    institution: TU Dresden
+    year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -35,13 +33,13 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/mailto:lorenmucha@gmail.com'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:lorenmucha@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/SandSloper
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.co.uk/citations?user=d52E-VcAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/lorenmucha
