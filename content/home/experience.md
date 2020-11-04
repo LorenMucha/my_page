@@ -19,7 +19,7 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Full stack Softwareentwickler und Security Engineer"
+  title = "Full Stack Softwareentwickler und Security Engineer"
   company = "DATEV eG"
   company_url = "https://datev.de"
   location = "Nürnberg"
@@ -29,7 +29,7 @@ date_format = "Jan 2006"
   
   Aufgaben: 
 
-  * Entwicklung und Design von Webservices 
+  * Entwicklung und Design von Webservices
   * Frontends
   * DevOps
   * Penetrationstests
@@ -44,5 +44,9 @@ date_format = "Jan 2006"
   date_end = "2016-12-31"
   description = """
   
+  Aufgaben:
+
+  * Weiterentwicklung des WebGIS <a href="/project/ioermonitor/">IÖR-Monitor</a>
+  * Entwicklung der <a href="https://github.com/LorenMucha/Monitor-API" target="_blank">Monitor API<a/>, dazugehöriger Web-Processing-Services und einer Nutzerverwaltung
   """
 +++
