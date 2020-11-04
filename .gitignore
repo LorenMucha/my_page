@@ -6,3 +6,6 @@
 public/
 
 .github/
+
+#deployment
+deploy.sh
