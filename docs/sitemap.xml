@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lorenmucha.de/tag/android/</loc>
+    <lastmod>2020-10-01T14:38:58+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lorenmucha.de/category/android/</loc>
     <lastmod>2020-10-01T14:38:58+02:00</lastmod>
   </url>
@@ -28,12 +33,22 @@
   </url>
   
   <url>
+    <loc>https://lorenmucha.de/tag/java/</loc>
+    <lastmod>2020-10-01T14:38:58+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lorenmucha.de/</loc>
     <lastmod>2020-10-01T14:38:58+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://lorenmucha.de/project/</loc>
+    <lastmod>2020-10-01T14:38:58+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lorenmucha.de/tags/</loc>
     <lastmod>2020-10-01T14:38:58+02:00</lastmod>
   </url>
   
@@ -59,10 +74,6 @@
   
   <url>
     <loc>https://lorenmucha.de/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://lorenmucha.de/tags/</loc>
   </url>
   
 </urlset>

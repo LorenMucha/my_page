@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Loren Mucha</title>
-    <link>https://lorenmucha.de/</link>
-      <atom:link href="https://lorenmucha.de/index.xml" rel="self" type="application/rss+xml" />
-    <description>Loren Mucha</description>
+    <title>android | Loren Mucha</title>
+    <link>https://lorenmucha.de/tag/android/</link>
+      <atom:link href="https://lorenmucha.de/tag/android/index.xml" rel="self" type="application/rss+xml" />
+    <description>android</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>de-de</language><copyright>todo</copyright><lastBuildDate>Thu, 01 Oct 2020 14:38:58 +0200</lastBuildDate>
     <image>
       <url>https://lorenmucha.de/images/icon_hu31c0e4609dff6f3cba4eb0e9d7fef2e2_1896_512x512_fill_lanczos_center_2.png</url>
-      <title>Loren Mucha</title>
-      <link>https://lorenmucha.de/</link>
+      <title>android</title>
+      <link>https://lorenmucha.de/tag/android/</link>
     </image>
     
     <item>
@@ -130,100 +130,6 @@
   
   
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>IÖR-Monitor</title>
-      <link>https://lorenmucha.de/project/ioermonitor/</link>
-      <pubDate>Thu, 01 Oct 2020 14:38:58 +0200</pubDate>
-      <guid>https://lorenmucha.de/project/ioermonitor/</guid>
-      <description>&lt;h2 id=&#34;übersicht&#34;&gt;Übersicht&lt;/h2&gt;
-&lt;p&gt;Bei diesem Projekt handelt es sich um eine&lt;/p&gt;
-&lt;h2 id=&#34;realisierung&#34;&gt;Realisierung&lt;/h2&gt;
-
-
-
-
-
-
-  
-    
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-architektur-des-iör-monitors&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;architektur.svg&#34; data-caption=&#34;Architektur des IÖR-Monitors&#34;&gt;
-
-
-  &lt;img src=&#34;architektur.svg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Architektur des IÖR-Monitors
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;Bei dem IÖR-Monitor handelt es sich um eine klassische Client-Server Architektur, mit den dazu gehörigen Service Layern. Im folgenden Diagramm ist die Kommunikation innerhalb des Backend grob zusammengefasst. Durch fehlende administrative Rechte und auch aus Zeitmangel während des Entwicklungs- bzw. Konzeptionsvorgangs musste die bereits teilweise ungünstige Konzeption fortgeführt werden. Um die Kommunikation so abstrakt wie möglich zu gestalten, wurde ein Request Manager im Frontend implementiert.&lt;/p&gt;
-
-
-
-
-
-
-  
-    
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-verwendete-technologien&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;code.svg&#34; data-caption=&#34;Verwendete Technologien&#34;&gt;
-
-
-  &lt;img src=&#34;code.svg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Verwendete Technologien
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
 </description>
     </item>
     

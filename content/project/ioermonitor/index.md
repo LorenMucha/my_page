@@ -6,7 +6,7 @@ summary: "_WebGIS_ zur Visualisierung von Indikatoren zur Flächenentwicklung in
 authors: []
 categories: [foss]
 date: 2020-10-01T14:38:58+02:00
-share: false
+share: true
 profile: false  # Show author profile?
 comments: false  # Show comments?
 

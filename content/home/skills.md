@@ -37,4 +37,10 @@ subtitle = ""
   icon_pack = "custom"
   name = "Jenkins"
   description = "80%"
+
+[[feature]]
+  icon = "java"
+  icon_pack = "custom"
+  name = "Java"
+  description = "80%"
 +++

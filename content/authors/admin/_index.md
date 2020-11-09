@@ -8,9 +8,6 @@ superuser: true
 # Role/position
 role: Fullstack Softwareentwickler
 
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
 interests:
 - Sportklettern
 - MTB
@@ -50,7 +47,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "lorenmucha@gmail.com"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -62,4 +59,4 @@ user_groups:
 - Visitors
 ---
 
-Ich arbeite seit dem Juni 2019 für die <a href="https://datev.de" target="_blank">DATEV eG</a> in Nürnberg als Fullstack Softwareentwickler. Hier kümmern wir uns in meinem Team um Softwarelösungen, um dem Kunden...
+Ich arbeite seit dem Juni 2019 für die <a href="https://datev.de" target="_blank">DATEV eG</a> in Nürnberg als Fullstack Softwareentwickler. 

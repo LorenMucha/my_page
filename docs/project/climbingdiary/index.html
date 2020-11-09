@@ -34,7 +34,7 @@
   
     
   
-  <meta name="description" content="Virtuelles Tagebuch mit Statistischer Auswertung der persönlichen Leistungen am Fels">
+  <meta name="description" content="Virtuelles Tagebuch mit Statistischer Auswertung der persönlichen Leistungen, als native Android App.">
 
   
   <link rel="alternate" hreflang="de-de" href="https://lorenmucha.de/project/climbingdiary/">
@@ -92,6 +92,8 @@
       
     
 
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
     
 
     
@@ -309,10 +311,13 @@
   
   <meta property="twitter:card" content="summary_large_image">
   
+  <meta property="twitter:site" content="@SandSloper">
+  <meta property="twitter:creator" content="@SandSloper">
+  
   <meta property="og:site_name" content="Loren Mucha">
   <meta property="og:url" content="https://lorenmucha.de/project/climbingdiary/">
   <meta property="og:title" content="Climbing Diary | Loren Mucha">
-  <meta property="og:description" content="Virtuelles Tagebuch mit Statistischer Auswertung der persönlichen Leistungen am Fels"><meta property="og:image" content="https://lorenmucha.de/project/climbingdiary/featured.jpg">
+  <meta property="og:description" content="Virtuelles Tagebuch mit Statistischer Auswertung der persönlichen Leistungen, als native Android App."><meta property="og:image" content="https://lorenmucha.de/project/climbingdiary/featured.jpg">
   <meta property="twitter:image" content="https://lorenmucha.de/project/climbingdiary/featured.jpg"><meta property="og:locale" content="de-de">
   
     
@@ -364,7 +369,7 @@
       "url": "https://lorenmucha.de/images/icon_hu31c0e4609dff6f3cba4eb0e9d7fef2e2_1896_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Virtuelles Tagebuch mit Statistischer Auswertung der persönlichen Leistungen am Fels"
+  "description": "Virtuelles Tagebuch mit Statistischer Auswertung der persönlichen Leistungen, als native Android App."
 }
 </script>
 
@@ -616,7 +621,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
         </li>
 
         
@@ -643,17 +648,10 @@
             
           
           
-            
-            
-            
-              
-            
-            
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
         </li>
 
         
@@ -702,24 +700,18 @@
 
 
 
-
-
-
-
-
-
-
+  
 
   
   
-
-
+  
 <div class="article-container pt-3">
   <h1>Climbing Diary</h1>
 
   
 
   
+    
 
 
 <div class="article-metadata">
@@ -756,7 +748,7 @@
 
 </div>
 
-  
+    
 
 
 
@@ -820,14 +812,7 @@
 </div>
 
 
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 521px; max-height: 521px;">
-  <div style="position: relative">
-    <img src="/project/climbingdiary/featured.jpg" alt="" class="featured-image">
-    
-  </div>
+  
 </div>
 
 
@@ -835,7 +820,30 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Test</p>
+      <h4 id="übersicht">Übersicht</h4>
+<p>Das Projekt habe ich aus persönlicher Unzufriedenheit mit <a href="https://8a.nu" target="_blank" rel="noopener">8a.nu</a> begonnen, da mir die <em>Usability</em> und Reaktionszeiten nicht zusagten. Ein weiterer Grund war die Möglichkeit, ein neues eigenes Projekt mit privatem Nutzen zu implementieren. Wie üblich in Android, wurde das Projekt in Java geschieben.</p>
+<h4 id="funktionen">Funktionen</h4>
+<ul>
+<li>
+  <i class="fas fa-edit  pr-1 fa-fw"></i> erstellen, aktualisieren und löschen von Touren und Projekten</li>
+<li>
+  <i class="fas fa-trash-restore  pr-1 fa-fw"></i> Backup und Wiederherstellung der Datenbank</li>
+<li>
+  <i class="fas fa-chart-bar  pr-1 fa-fw"></i> statistische Auswertung der erbrachten Jahre als
+<ul>
+<li>Balkendiagramm</li>
+<li>Liniendiagramm</li>
+<li>Tabelle</li>
+</ul>
+</li>
+<li>
+  <i class="fas fa-search  pr-1 fa-fw"></i> Filter und Suchfunktion</li>
+<li>
+  <i class="fas fa-hands-helping  pr-1 fa-fw"></i> Autovervollständigung zur schnellen Eingabe neuer Routen/Projekte</li>
+<li>
+  <i class="fas fa-sync  pr-1 fa-fw"></i> durch den Einsatz des <em>Observer</em> Pattern aktualisieren sich alle Sichten, bei einer Manipulation der Daten.</li>
+</ul>
+<h4 id="screenshots">Screenshots</h4>
 
 
 
@@ -935,7 +943,99 @@
 
 
 
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/android/">android</a>
+  
+  <a class="badge badge-light" href="/tag/java/">java</a>
+  
+</div>
 
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://lorenmucha.de/project/climbingdiary/&amp;text=Climbing%20Diary" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://lorenmucha.de/project/climbingdiary/&amp;t=Climbing%20Diary" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Climbing%20Diary&amp;body=https://lorenmucha.de/project/climbingdiary/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://lorenmucha.de/project/climbingdiary/&amp;title=Climbing%20Diary" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Climbing%20Diary%20https://lorenmucha.de/project/climbingdiary/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://lorenmucha.de/project/climbingdiary/&amp;title=Climbing%20Diary" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
 
 
 
@@ -1072,6 +1172,8 @@
     
 
     
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
     
 
     

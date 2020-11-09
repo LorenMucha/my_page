@@ -17,7 +17,30 @@
       <link>https://lorenmucha.de/project/climbingdiary/</link>
       <pubDate>Thu, 01 Oct 2020 14:38:58 +0200</pubDate>
       <guid>https://lorenmucha.de/project/climbingdiary/</guid>
-      <description>&lt;p&gt;Test&lt;/p&gt;
+      <description>&lt;h4 id=&#34;übersicht&#34;&gt;Übersicht&lt;/h4&gt;
+&lt;p&gt;Das Projekt habe ich aus persönlicher Unzufriedenheit mit &lt;a href=&#34;https://8a.nu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;8a.nu&lt;/a&gt; begonnen, da mir die &lt;em&gt;Usability&lt;/em&gt; und Reaktionszeiten nicht zusagten. Ein weiterer Grund war die Möglichkeit, ein neues eigenes Projekt mit privatem Nutzen zu implementieren. Wie üblich in Android, wurde das Projekt in Java geschieben.&lt;/p&gt;
+&lt;h4 id=&#34;funktionen&#34;&gt;Funktionen&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-edit  pr-1 fa-fw&#34;&gt;&lt;/i&gt; erstellen, aktualisieren und löschen von Touren und Projekten&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-trash-restore  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Backup und Wiederherstellung der Datenbank&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-chart-bar  pr-1 fa-fw&#34;&gt;&lt;/i&gt; statistische Auswertung der erbrachten Jahre als
+&lt;ul&gt;
+&lt;li&gt;Balkendiagramm&lt;/li&gt;
+&lt;li&gt;Liniendiagramm&lt;/li&gt;
+&lt;li&gt;Tabelle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-search  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Filter und Suchfunktion&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-hands-helping  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Autovervollständigung zur schnellen Eingabe neuer Routen/Projekte&lt;/li&gt;
+&lt;li&gt;
+  &lt;i class=&#34;fas fa-sync  pr-1 fa-fw&#34;&gt;&lt;/i&gt; durch den Einsatz des &lt;em&gt;Observer&lt;/em&gt; Pattern aktualisieren sich alle Sichten, bei einer Manipulation der Daten.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h4&gt;
 
 
 
