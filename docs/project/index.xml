@@ -183,47 +183,20 @@
 &lt;/figure&gt;
 
 &lt;p&gt;Bei dem IÖR-Monitor handelt es sich um eine klassische Client-Server Architektur, mit den dazu gehörigen Service Layern. Im folgenden Diagramm ist die Kommunikation innerhalb des Backend grob zusammengefasst. Durch fehlende administrative Rechte und auch aus Zeitmangel während des Entwicklungs- bzw. Konzeptionsvorgangs musste die bereits teilweise ungünstige Konzeption fortgeführt werden. Um die Kommunikation so abstrakt wie möglich zu gestalten, wurde ein Request Manager im Frontend implementiert.&lt;/p&gt;
-
-
-
-
-
-
-  
-    
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure id=&#34;figure-verwendete-technologien&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;code.svg&#34; data-caption=&#34;Verwendete Technologien&#34;&gt;
-
-
-  &lt;img src=&#34;code.svg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Verwendete Technologien
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;verwendete Technologie&lt;/th&gt;
+&lt;th&gt;Anteil in Prozent&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;../../images/icon-pack/javascript.svg&#34;/&gt;&lt;/td&gt;
+&lt;td&gt;76.9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     
