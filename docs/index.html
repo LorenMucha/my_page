@@ -60,7 +60,7 @@
   
   
   
-  <meta name="theme-color" content="#4caf50">
+  <meta name="theme-color" content="rgb(0, 136, 204)">
   
 
   
@@ -86,8 +86,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
         
       
     
@@ -359,13 +359,15 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper  ">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper dark ">
 
   
   
   
+    <script>window.wcDarkLightEnabled = true;</script>
   
-    <script>const isSiteThemeDark = false;</script>
+  
+    <script>const isSiteThemeDark = true;</script>
   
   
   <script src="/js/load-theme.js"></script>
@@ -639,6 +641,23 @@
       
 
       
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
       
 
       
@@ -1551,7 +1570,7 @@
   
   
 
-  <section id="talks" class="home-section wg-pages   "  >
+  <section id="contact" class="home-section wg-contact   "  >
     <div class="container">
       
 
@@ -1560,267 +1579,66 @@
 
 
 
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-<div class="row ">
+<div class="row contact-widget ">
   
     
       <div class="col-12 col-lg-4 section-heading">
-        <h1>Recent &amp; Upcoming Talks</h1>
+        <h1>Contact</h1>
         
       </div>
     
   
   <div class="col-12 col-lg-8">
-
     
 
     
 
-    
-    
-    
+    <ul class="fa-ul">
 
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  <section id="featured" class="home-section wg-featured   "  >
-    <div class="container">
+      
+      <li>
+        <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+        <span id="person-email"><a href="mailto:lorenmucha@gmail.com">lorenmucha@gmail.com</a></span>
+      </li>
       
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Featured Publications</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-
-    
-
-  
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  <section id="publications" class="home-section wg-pages   "  >
-    <div class="container">
+      
+      <li>
+        <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
+        <span id="person-telephone"><a href="tel:%28&#43;49%29%201575/0286721">(&#43;49) 1575/0286721</a></span>
+      </li>
       
 
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-<div class="row ">
-  
-    
-      <div class="col-12 col-lg-4 section-heading">
-        <h1>Recent Publications</h1>
+      
+      
         
-      </div>
-    
-  
-  <div class="col-12 col-lg-8">
+        <li>
+          <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+          <span id="person-address">Gostenhofer Schulgasse, 32, Nürnberg, BY 90443</span>
+        </li>
+      
 
-    <div class="alert alert-note">
-  <div>
-    Quickly discover relevant content by <a href="./publication/">filtering publications</a>.
-  </div>
-</div>
+      
 
+      
+
+      
+
+      
+      
+
+    </ul>
 
     
-
-    
-    
+    <div class="d-none">
+      <input id="map-provider" value="2">
+      <input id="map-lat" value="49.447080">
+      <input id="map-lng" value="11.063060">
+      <input id="map-dir" value="Gostenhofer Schulgasse, 32, Nürnberg, BY 90443">
+      <input id="map-zoom" value="15">
+      <input id="map-api-key" value="">
+    </div>
+    <div id="map"></div>
     
 
   </div>
@@ -1917,121 +1735,6 @@
           <a href="/tag/java/" style="font-size:0.7rem">java</a>
         
       </div>
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  <section id="contact" class="home-section wg-contact   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-<div class="row contact-widget ">
-  
-    
-      <div class="col-12 col-lg-4 section-heading">
-        <h1>Contact</h1>
-        
-      </div>
-    
-  
-  <div class="col-12 col-lg-8">
-    
-
-    
-
-    <ul class="fa-ul">
-
-      
-      <li>
-        <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email"><a href="mailto:lorenmucha@gmail.com">lorenmucha@gmail.com</a></span>
-      </li>
-      
-
-      
-      <li>
-        <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
-        <span id="person-telephone"><a href="tel:%28&#43;49%29%201575/0286721">(&#43;49) 1575/0286721</a></span>
-      </li>
-      
-
-      
-      
-        
-        <li>
-          <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-          <span id="person-address">Gostenhofer Schulgasse, 32, Nürnberg, BY 90443</span>
-        </li>
-      
-
-      
-
-      
-
-      
-
-      
-      
-
-    </ul>
-
-    
-    <div class="d-none">
-      <input id="map-provider" value="2">
-      <input id="map-lat" value="49.447080">
-      <input id="map-lng" value="11.063060">
-      <input id="map-dir" value="Gostenhofer Schulgasse, 32, Nürnberg, BY 90443">
-      <input id="map-zoom" value="15">
-      <input id="map-api-key" value="">
-    </div>
-    <div id="map"></div>
     
 
   </div>
