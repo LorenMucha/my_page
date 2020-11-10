@@ -49,5 +49,6 @@ Bei diesem Projekt handelt es sich um eine
 
 Bei dem IÖR-Monitor handelt es sich um eine klassische Client-Server Architektur, mit den dazu gehörigen Service Layern. Im folgenden Diagramm ist die Kommunikation innerhalb des Backend grob zusammengefasst. Durch fehlende administrative Rechte und auch aus Zeitmangel während des Entwicklungs- bzw. Konzeptionsvorgangs musste die bereits teilweise ungünstige Konzeption fortgeführt werden. Um die Kommunikation so abstrakt wie möglich zu gestalten, wurde ein Request Manager im Frontend implementiert.
 
-{{< figure src="code.svg" title="Verwendete Technologien" >}}
-
+| verwendete Technologie | Anteil in Prozent|
+|------------------------|------------------|
+| <img src="../../images/icon-pack/javascript.svg"/> | 76.9 |

@@ -43,4 +43,10 @@ subtitle = ""
   icon_pack = "custom"
   name = "Java"
   description = "80%"
+
+[[feature]]
+  icon = "php"
+  icon_pack = "custom"
+  name = "PHP"
+  description = "70%"
 +++
