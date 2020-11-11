@@ -18,7 +18,7 @@
       <pubDate>Thu, 01 Oct 2020 14:38:58 +0200</pubDate>
       <guid>https://lorenmucha.de/project/ioermonitor/</guid>
       <description>&lt;h2 id=&#34;übersicht&#34;&gt;Übersicht&lt;/h2&gt;
-&lt;p&gt;Bei diesem Projekt handelt es sich um eine&lt;/p&gt;
+&lt;p&gt;Dieses Projekt ging aus meiner Masterarbeit hervor und beschäftigte mich 2 Jahre am &lt;a href=&#34;https://ioer.de&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Leibniz-Instituts für ökologische Raumentwicklung&lt;/a&gt; in Dresden. Hierbei handelt es sich um ein &lt;em&gt;WebGIS&lt;/em&gt;, in welchem der Nutzer in die Lage versetzt wird, sich zu Fragen der der Flächennutzung in Deutschland in Deutschland zu informieren.&lt;/p&gt;
 &lt;h2 id=&#34;realisierung&#34;&gt;Realisierung&lt;/h2&gt;
 
 
@@ -62,20 +62,6 @@
 &lt;/figure&gt;
 
 &lt;p&gt;Bei dem IÖR-Monitor handelt es sich um eine klassische Client-Server Architektur, mit den dazu gehörigen Service Layern. Im folgenden Diagramm ist die Kommunikation innerhalb des Backend grob zusammengefasst. Durch fehlende administrative Rechte und auch aus Zeitmangel während des Entwicklungs- bzw. Konzeptionsvorgangs musste die bereits teilweise ungünstige Konzeption fortgeführt werden. Um die Kommunikation so abstrakt wie möglich zu gestalten, wurde ein Request Manager im Frontend implementiert.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;verwendete Technologie&lt;/th&gt;
-&lt;th&gt;Anteil in Prozent&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;../../images/icon-pack/javascript.svg&#34;/&gt;&lt;/td&gt;
-&lt;td&gt;76.9&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
 </description>
     </item>
     

@@ -11,42 +11,48 @@ subtitle = ""
 [[feature]]
   icon = "spring"
   icon_pack = "custom"
-  name = "Spring Boot"
-  description = "80%"
+  name = "Spring Framework"
+  description = "sehr gut"
 
 [[feature]]
   icon = "python"
   icon_pack = "custom"
   name = "Python"
-  description = "70%"
+  description = "sehr gut"
 
 [[feature]]
   icon = "angular"
   icon_pack = "custom"
   name = "AngularJS"
-  description = "60%"
+  description = "gut"
 
 [[feature]]
   icon = "postgresql"
   icon_pack = "custom"
   name = "PostgreSQL"
-  description = "60%"
+  description = "gut"
 
 [[feature]]
   icon = "jenkins"
   icon_pack = "custom"
   name = "Jenkins"
-  description = "80%"
+  description = "sehr gut"
 
 [[feature]]
   icon = "java"
   icon_pack = "custom"
   name = "Java"
-  description = "80%"
+  description = "sehr gut"
 
 [[feature]]
   icon = "php"
   icon_pack = "custom"
   name = "PHP"
-  description = "70%"
+  description = "gut"
+
+[[feature]]
+  icon = "android"
+  icon_pack = "custom"
+  name = "Android"
+  description = "gut"
 +++

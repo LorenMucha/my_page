@@ -33,14 +33,14 @@ links:
 image:
   caption: ""
   focal_point: "Center"
-  preview_only: false
+  preview_only: true
   
 ---
 
 ## Übersicht
 
-
-Bei diesem Projekt handelt es sich um eine 
+Dieses Projekt ging aus meiner Masterarbeit hervor und beschäftigte mich 2 Jahre am [Leibniz-Instituts für ökologische Raumentwicklung](https://ioer.de) in Dresden. Hierbei handelt es sich um ein _WebGIS_, in welchem der Nutzer in die Lage versetzt wird, sich zu Fragen der der Flächennutzung in Deutschland in Deutschland zu informieren.
+ 
 
 
 ## Realisierung
@@ -48,7 +48,3 @@ Bei diesem Projekt handelt es sich um eine
 {{< figure src="architektur.svg" title="Architektur des IÖR-Monitors" >}}
 
 Bei dem IÖR-Monitor handelt es sich um eine klassische Client-Server Architektur, mit den dazu gehörigen Service Layern. Im folgenden Diagramm ist die Kommunikation innerhalb des Backend grob zusammengefasst. Durch fehlende administrative Rechte und auch aus Zeitmangel während des Entwicklungs- bzw. Konzeptionsvorgangs musste die bereits teilweise ungünstige Konzeption fortgeführt werden. Um die Kommunikation so abstrakt wie möglich zu gestalten, wurde ein Request Manager im Frontend implementiert.
-
-| verwendete Technologie | Anteil in Prozent|
-|------------------------|------------------|
-| <img src="../../images/icon-pack/javascript.svg"/> | 76.9 |

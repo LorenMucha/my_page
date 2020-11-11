@@ -45,13 +45,15 @@ gallery_item:
   image: screenshot_climbing_diary/projects.png
   caption: Abspeichern und natürlich *ticken* der Projekte <i class="far fa-smile" style="color:yellow;"></i>
 ---
+<img src="logo.jpg"/>
+
 #### Übersicht
-Das Projekt habe ich aus persönlicher Unzufriedenheit mit [8a.nu](https://8a.nu) begonnen, da mir die _Usability_ und Reaktionszeiten nicht zusagten. Ein weiterer Grund war die Möglichkeit, ein neues eigenes Projekt mit privatem Nutzen zu implementieren. Wie üblich in Android, wurde das Projekt in Java geschieben. 
+Das Projekt habe ich aus dem Bedürfnis heraus entwickelt, eine eigene Möglichkeit zu besitzen, die von mir gepunkteten Touren abzuspeichern und auszuwerten. Hiermit ist ein eigenes Projekt entstanden. 
 
 #### Funktionen
 - {{< icon name="edit" pack="fas" >}} erstellen, aktualisieren und löschen von Touren und Projekten
-- {{< icon name="trash-restore" pack="fas" >}} Backup und Wiederherstellung der Datenbank
-- {{< icon name="chart-bar" pack="fas" >}} statistische Auswertung der erbrachten Jahre als
+- {{< icon name="trash-restore" pack="fas" >}} Backup und Wiederherstellung der zugrundeliegenden Datenbank
+- {{< icon name="chart-bar" pack="fas" >}} statistische Auswertung der erbrachten Leistung als
   - Balkendiagramm
   - Liniendiagramm
   - Tabelle
