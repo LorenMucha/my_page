@@ -77,7 +77,7 @@ date_format = "02/2006"
   
   Aufgaben:
 
-  * Entwicklung eines Plug-In für die GIS-Software ArcGIS, zur Berechnung von Kernflächen in Städten
+  * Entwicklung eines _Plug-In_ für die GIS-Software _ArcGIS_, zur Berechnung von Kernflächen in Städten
   """
   
 +++

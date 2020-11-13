@@ -59,4 +59,8 @@ user_groups:
 - Visitors
 ---
 
-Ich arbeite seit dem Juni 2019 für die <a href="https://datev.de" target="_blank">DATEV eG</a> in Nürnberg als Fullstack Softwareentwickler. 
+Ich arbeite seit dem Juni 2019 für die <a href="https://datev.de" target="_blank">DATEV eG</a> in Nürnberg als Fullstack Softwareentwickler. Vorher war ich für das [Leibniz Institut für ökologische Raumentwicklung](https://link) als Wissenschaftlicher Mitarbeiter tätig. 
+
+In meiner Freizeit versuche ich, soweit es meine Zeit zulässt, auch an privaten Projekten zu arbeiten und neue Technologien auszuprobieren.
+
+Nebenbei bin ich leidenschaftlicher Kletterer und Radfahrer, wobei ich versuche einmal im Jahr eine Alpenüberquerung mit dem Mountainbike zu machen.
