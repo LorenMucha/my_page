@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Aus&shy;zeich&shy;nungen,<br> & Wei&shy;ter&shy;bil&shy;dungen"
+title = "Aus&shy;zeich&shy;nungen"
 
 subtitle = ""
 
@@ -28,5 +28,4 @@ date_format = "January 2006"
   date_start = "2018-01-31"
   date_end = ""
   description = """3. Platz beim **GIS-Award 2018** für meine Masterarbeit, in der Kategorie _Innovative Leistungen der Jugend und des wissenschaftlichen Nachwuchses_."""
-
 +++

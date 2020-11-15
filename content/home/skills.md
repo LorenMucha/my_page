@@ -55,4 +55,22 @@ subtitle = ""
   icon_pack = "custom"
   name = "Android"
   description = "gut"
+
+[[feature]]
+  icon = "flask"
+  icon_pack = "custom"
+  name = "Flask"
+  description = "sehr gut"
+
+[[feature]]
+  icon = "kafka"
+  icon_pack = "custom"
+  name = "Kafka"
+  description = "gut"
+
+[[feature]]
+  icon = "esri"
+  icon_pack = "custom"
+  name = "Arc GIS"
+  description = "gut"
 +++
