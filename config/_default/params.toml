@@ -13,16 +13,16 @@
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
-theme = "mr robot"
+theme = "minimal"
 
 # Enable users to switch between day and night mode?
-day_night = true
+day_night = false
 
 # Override the theme's font set (optional).
 #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in font sets in `themes/academic/data/fonts/`
 #   Browse user installed font sets in `data/fonts/`
-font = "forest"
+font = "minimal"
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
@@ -88,12 +88,17 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "lorenmucha@gmail.com"
+email = ""
 phone = "(+49) 1575/0286721"
-whatsapp = ""
+
+contact_links = [
+ {icon = "twitter", icon_pack = "fab", name = "DM", link = "https://twitter.com/SandSloper"},
+ {icon = "instagram", icon_pack = "fab", name = "Instagram", link = "https://www.instagram.com/kieselsloper/?hl=de"},
+]
+
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Gostenhofer Schulgasse, 32", city = "Nürnberg", region = "BY", postcode = "90443", country = "Germany", country_code = "DE"}
+#address = {street = "Gostenhofer Schulgasse, 32", city = "Nürnberg", region = "BY", postcode = "90443", country = "Germany", country_code = "DE"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
@@ -245,7 +250,7 @@ plugins_js  = ['analytics']
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  engine = 2
+  engine = 0
   api_key = ""
   zoom = 15
 
@@ -268,3 +273,4 @@ plugins_js  = ['analytics']
 ############################
 [icon.pack]
   ai = true  # Academicons icon pack https://jpswalsh.github.io/academicons/
+

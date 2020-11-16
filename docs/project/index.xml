@@ -5,7 +5,7 @@
     <link>https://lorenmucha.de/project/</link>
       <atom:link href="https://lorenmucha.de/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>de-de</language><copyright>todo</copyright><lastBuildDate>Thu, 01 Oct 2020 14:38:58 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>de-de</language><copyright>2020</copyright><lastBuildDate>Thu, 01 Oct 2020 14:38:58 +0200</lastBuildDate>
     <image>
       <url>https://lorenmucha.de/images/icon_hu31c0e4609dff6f3cba4eb0e9d7fef2e2_1896_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
@@ -139,9 +139,9 @@
       <link>https://lorenmucha.de/project/ioermonitor/</link>
       <pubDate>Thu, 01 Oct 2020 14:38:58 +0200</pubDate>
       <guid>https://lorenmucha.de/project/ioermonitor/</guid>
-      <description>&lt;h2 id=&#34;übersicht&#34;&gt;Übersicht&lt;/h2&gt;
+      <description>&lt;h4 id=&#34;übersicht&#34;&gt;Übersicht&lt;/h4&gt;
 &lt;p&gt;Dieses Projekt ging aus meiner Masterarbeit hervor und beschäftigte mich 2 Jahre am &lt;a href=&#34;https://ioer.de&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Leibniz-Instituts für ökologische Raumentwicklung&lt;/a&gt; in Dresden. Hierbei handelt es sich um ein &lt;em&gt;WebGIS&lt;/em&gt;, in welchem der Nutzer in die Lage versetzt wird, sich zu Fragen der Flächennutzung in Deutschland zu informieren. Die Oberfläche stellt dem Nutzer dabei zahleiche Tools zur Interaktion zur Verfügung.&lt;/p&gt;
-&lt;h2 id=&#34;funktionen&#34;&gt;Funktionen&lt;/h2&gt;
+&lt;h4 id=&#34;funktionen&#34;&gt;Funktionen&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Teilung der Kartenansicht mit einem flexiblen Slider, um zwei Indikatoren miteinander zu vergleichen&lt;/li&gt;
 &lt;li&gt;Teilen der selbst erstellten Karte&lt;/li&gt;
@@ -149,97 +149,7 @@
 &lt;li&gt;Responsive Design&lt;/li&gt;
 &lt;li&gt;Zahlreiche Tools: Messfunktion, Glätten, Lupe, Export, Tabellen und Diagramme&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h4&gt;
-
-
-
-
-
-
-
-
-  
-  
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-    
-      
-      
-    
-  
-  
-  &lt;a data-fancybox=&#34;gallery-Screenshots&#34; data-caption=&#34;Darstellung im SVG View mit über 5000 Gemeinden&#34; href=&#34;https://lorenmucha.de/media/screenshot_monitor/karte.png&#34;&gt;
-    &lt;img src=&#34;https://lorenmucha.de/media/screenshot_monitor/karte.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-      
-      
-    
-  
-  
-  &lt;a data-fancybox=&#34;gallery-Screenshots&#34; data-caption=&#34;Auswertung als &amp;lt;em&amp;gt;Liniendiagramm&amp;lt;/em&amp;gt;&#34; href=&#34;https://lorenmucha.de/media/screenshot_climbing_diary/linechart.png&#34;&gt;
-    &lt;img src=&#34;https://lorenmucha.de/media/screenshot_climbing_diary/linechart.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-      
-      
-    
-  
-  
-  &lt;a data-fancybox=&#34;gallery-Screenshots&#34; data-caption=&#34;Auswertung als &amp;lt;em&amp;gt;Tabelle&amp;lt;/em&amp;gt;&#34; href=&#34;https://lorenmucha.de/media/screenshot_climbing_diary/tabelle.png&#34;&gt;
-    &lt;img src=&#34;https://lorenmucha.de/media/screenshot_climbing_diary/tabelle.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-      
-      
-    
-  
-  
-  &lt;a data-fancybox=&#34;gallery-Screenshots&#34; data-caption=&#34;&amp;lt;em&amp;gt;Filter&amp;lt;/em&amp;gt; Funktionalität&#34; href=&#34;https://lorenmucha.de/media/screenshot_climbing_diary/filter.png&#34;&gt;
-    &lt;img src=&#34;https://lorenmucha.de/media/screenshot_climbing_diary/filter.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-      
-      
-    
-  
-  
-  &lt;a data-fancybox=&#34;gallery-Screenshots&#34; data-caption=&#34;Abspeichern und natürlich &amp;lt;em&amp;gt;ticken&amp;lt;/em&amp;gt; der Projekte &amp;lt;i class=&amp;#34;far fa-smile&amp;#34; style=&amp;#34;color:yellow;&amp;#34;&amp;gt;&amp;lt;/i&amp;gt;&#34; href=&#34;https://lorenmucha.de/media/screenshot_climbing_diary/projects.png&#34;&gt;
-    &lt;img src=&#34;https://lorenmucha.de/media/screenshot_climbing_diary/projects.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-&lt;/div&gt;
-&lt;h2 id=&#34;realisierung&#34;&gt;Realisierung&lt;/h2&gt;
+&lt;h4 id=&#34;realisierung&#34;&gt;Realisierung&lt;/h4&gt;
 
 
 
@@ -281,7 +191,98 @@
 
 &lt;/figure&gt;
 
-&lt;p&gt;Bei dem IÖR-Monitor handelt es sich um eine klassische Client-Server Architektur, mit den dazu gehörigen Service Layern. Im folgenden Diagramm ist die Kommunikation innerhalb des Backend grob zusammengefasst. Um die Kommunikation so abstrakt wie möglich zu gestalten, wurde ein Request Manager im Frontend implementiert.&lt;/p&gt;
+&lt;p&gt;Bei dem IÖR-Monitor handelt es sich um eine klassische Client-Server Architektur, mit den dazu gehörigen Service Layern. Im folgenden Diagramm ist die Kommunikation innerhalb des Backend grob zusammengefasst. Um die Kommunikation so abstrakt wie möglich zu gestalten, wurde ein Request Manager im Frontend implementiert. Die Geometrien werden in einer &lt;strong&gt;PostgreSQL&lt;/strong&gt; Datenbank persistiert und via &lt;strong&gt;PHP&lt;/strong&gt; zur Verfügung, wobei die &lt;em&gt;On the Fly&lt;/em&gt; prozessierung mit &lt;a href=&#34;https://flask.palletsprojects.com/en/1.1.x/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Flask&lt;/strong&gt;&lt;/a&gt; als Python Microservice erfolgte. Die Rasterkarten werden über einem &lt;a href=&#34;https://mapserver.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;UMN Mapserver&lt;/strong&gt;&lt;/a&gt; gerendert und bereitgestellt. Die genaue Realisierung kann aus meiner Masterarbeit entnommen werden. &lt;a href=&#34;https://lorenmucha.de/files/ma.pdf&#34;&gt;
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h4&gt;
+
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+    
+      
+      
+    
+  
+  
+  &lt;a data-fancybox=&#34;gallery-Screenshots&#34; data-caption=&#34;Darstellung im SVG View mit über 5000 Gemeinden&#34; href=&#34;https://lorenmucha.de/media/screenshots_monitor/karte.png&#34;&gt;
+    &lt;img src=&#34;https://lorenmucha.de/media/screenshots_monitor/karte.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+      
+    
+  
+  
+  &lt;a data-fancybox=&#34;gallery-Screenshots&#34; data-caption=&#34;Darstellung im SVG View mit optionaler tabellarischer Ansicht&#34; href=&#34;https://lorenmucha.de/media/screenshots_monitor/karte_tabelle.png&#34;&gt;
+    &lt;img src=&#34;https://lorenmucha.de/media/screenshots_monitor/karte_tabelle.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+      
+    
+  
+  
+  &lt;a data-fancybox=&#34;gallery-Screenshots&#34; data-caption=&#34;Dialog mit statistischer Auswertung&#34; href=&#34;https://lorenmucha.de/media/screenshots_monitor/chart.png&#34;&gt;
+    &lt;img src=&#34;https://lorenmucha.de/media/screenshots_monitor/chart.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+      
+    
+  
+  
+  &lt;a data-fancybox=&#34;gallery-Screenshots&#34; data-caption=&#34;Dialog mit tabellarischer Auswertung&#34; href=&#34;https://lorenmucha.de/media/screenshots_monitor/tabelle.png&#34;&gt;
+    &lt;img src=&#34;https://lorenmucha.de/media/screenshots_monitor/tabelle.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+      
+    
+  
+  
+  &lt;a data-fancybox=&#34;gallery-Screenshots&#34; data-caption=&#34;Dialog mit tabellarischer Auswertung&#34; href=&#34;https://lorenmucha.de/media/screenshots_monitor/raster_slider.png&#34;&gt;
+    &lt;img src=&#34;https://lorenmucha.de/media/screenshots_monitor/raster_slider.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+&lt;/div&gt;
 </description>
     </item>
     

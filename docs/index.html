@@ -60,7 +60,7 @@
   
   
   
-  <meta name="theme-color" content="rgb(0, 136, 204)">
+  <meta name="theme-color" content="#2962ff">
   
 
   
@@ -86,14 +86,12 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
 
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
     
 
     
@@ -323,7 +321,7 @@
   <meta property="og:description" content="Fullstack Softwareentwickler"><meta property="og:image" content="https://lorenmucha.de/images/icon_hu31c0e4609dff6f3cba4eb0e9d7fef2e2_1896_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://lorenmucha.de/images/icon_hu31c0e4609dff6f3cba4eb0e9d7fef2e2_1896_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="de-de">
   
-    <meta property="og:updated_time" content="2020-10-01T14:38:58&#43;02:00">
+    <meta property="og:updated_time" content="2018-06-28T00:00:00&#43;01:00">
   
 
   
@@ -359,15 +357,13 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper dark ">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper  ">
 
   
   
   
-    <script>window.wcDarkLightEnabled = true;</script>
   
-  
-    <script>const isSiteThemeDark = true;</script>
+    <script>const isSiteThemeDark = false;</script>
   
   
   <script src="/js/load-theme.js"></script>
@@ -605,23 +601,6 @@
 
       
       
-      <li class="nav-item dropdown theme-dropdown">
-        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fas fa-moon" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu">
-          <a href="#" class="dropdown-item js-set-theme-light">
-            <span>Light</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-dark">
-            <span>Dark</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-auto">
-            <span>Automatic</span>
-          </a>
-        </div>
-      </li>
-      
 
       
 
@@ -635,8 +614,6 @@
 
   <div class="page-body">
     
-
-
 
 
 
@@ -808,7 +785,7 @@
     
     <h1>Hallo</h1>
 
-    <p>Ich arbeite seit dem Juni 2019 für die <a href="https://datev.de" target="_blank">DATEV eG</a> in Nürnberg als Fullstack Softwareentwickler. Vorher war ich für das <a href="https://link" target="_blank" rel="noopener">Leibniz Institut für ökologische Raumentwicklung</a> als Wissenschaftlicher Mitarbeiter tätig.</p>
+    <p>Ich arbeite seit Juni 2019 für die <a href="https://datev.de" target="_blank">DATEV eG</a> in Nürnberg als Fullstack Softwareentwickler. Vorher war ich für das <a href="https://link" target="_blank" rel="noopener">Leibniz Institut für ökologische Raumentwicklung</a> als Wissenschaftlicher Mitarbeiter tätig.</p>
 <p>In meiner Freizeit versuche ich, soweit es meine Zeit zulässt, auch an privaten Projekten zu arbeiten und neue Technologien auszuprobieren.</p>
 <p>Nebenbei bin ich leidenschaftlicher Kletterer und Radfahrer, wobei mich hier vor allem das MTB in seinen Bann gezogen hat. Am liebsten kombiniere ich Sport mit dem Reisen, um neue Herausforderungen zu finden und auch den persönlichen Horizont zu erweitern.</p>
 
@@ -1526,7 +1503,7 @@
   
     
       <div class="col-12 col-lg-4 section-heading">
-        <h1>Contact</h1>
+        <h1>Kontakt</h1>
         
       </div>
     
@@ -1536,13 +1513,37 @@
 
     
 
+    
+    
+      
+        
+      
+      
+    
+
+    <div class="mb-3">
+      <form name="contact" method="POST"  action="https://formspree.io/f/xnqozbwk"  >
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputName">Name</label>
+          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
+        </div>
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputEmail">E-Mail</label>
+          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="E-Mail" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="inputMessage">Nachricht</label>
+          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Nachricht" required></textarea>
+        </div>
+        
+        
+        <button type="submit" class="btn btn-outline-primary px-3 py-2">Senden</button>
+      </form>
+    </div>
+    
+
     <ul class="fa-ul">
 
-      
-      <li>
-        <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email"><a href="mailto:lorenmucha@gmail.com">lorenmucha@gmail.com</a></span>
-      </li>
       
 
       
@@ -1554,34 +1555,50 @@
 
       
       
+
+      
+
+      
+
+      
+
+      
+      
+      
+      
+      
         
-        <li>
-          <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-          <span id="person-address">Gostenhofer Schulgasse, 32, Nürnberg, BY 90443</span>
-        </li>
       
-
       
-
       
-
       
-
       
+        
+      
+      <li>
+        <i class="fa-li fab fa-twitter fa-2x" aria-hidden="true"></i>
+        <a href="https://twitter.com/SandSloper" target="_blank" rel="noopener">DM</a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <i class="fa-li fab fa-instagram fa-2x" aria-hidden="true"></i>
+        <a href="https://www.instagram.com/kieselsloper/?hl=de" target="_blank" rel="noopener">Instagram</a>
+      </li>
       
 
     </ul>
 
-    
-    <div class="d-none">
-      <input id="map-provider" value="2">
-      <input id="map-lat" value="49.447080">
-      <input id="map-lng" value="11.063060">
-      <input id="map-dir" value="Gostenhofer Schulgasse, 32, Nürnberg, BY 90443">
-      <input id="map-zoom" value="15">
-      <input id="map-api-key" value="">
-    </div>
-    <div id="map"></div>
     
 
   </div>
@@ -1696,9 +1713,16 @@
     <div class="container">
       <footer class="site-footer">
   
+  <p class="powered-by" style="display:none;">
+    
+      <a href="/privacy/">Impressum & Datenschutzerklärung</a>
+    
+    
+  </p>
+  
 
   <p class="powered-by" style="display:none;">
-    todo
+    2020
   </p>
 
   
@@ -1782,8 +1806,6 @@
     
 
     
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
     
 
     
