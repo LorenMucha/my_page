@@ -39,8 +39,8 @@ highlight_name: false
 
 ---
 
-Ich arbeite seit Juni 2019 für die <a href="https://datev.de" target="_blank">DATEV eG</a> in Nürnberg als Fullstack Softwareentwickler. Vorher war ich für das [Leibniz Institut für ökologische Raumentwicklung](https://link) als Wissenschaftlicher Mitarbeiter tätig. 
+Ich arbeite seit Juni 2019 für die <a href="https://datev.de" target="_blank">DATEV eG</a> in Nürnberg als Full Stack Softwareentwickler. Vorher war ich für das [Leibniz Institut für ökologische Raumentwicklung](https://link) als Wissenschaftlicher Mitarbeiter tätig. 
 
 In meiner Freizeit versuche ich, soweit es meine Zeit zulässt, auch an privaten Projekten zu arbeiten und neue Technologien auszuprobieren. 
 
-Nebenbei bin ich leidenschaftlicher Kletterer und Radfahrer, wobei mich hier vor allem das MTB in seinen Bann gezogen hat. Am liebsten kombiniere ich Sport mit dem Reisen, um neue Herausforderungen zu finden und auch den persönlichen Horizont zu erweitern.
+Nebenbei bin ich leidenschaftlicher Kletterer und Radfahrer, wobei mich hier vor allem das MTB in seinen Bann gezogen hat. Am liebsten kombiniere ich Sport mit dem Reisen, um neue Herausforderungen zu finden und auch den persönlichen Horizont zu erweitern. Neben dem Sport spiele ich noch Klavier und koche sehr gerne für Freunde.

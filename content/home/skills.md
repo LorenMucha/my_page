@@ -69,7 +69,7 @@ subtitle = ""
   description = "gut"
 
 [[feature]]
-  icon = "esri"
+  icon = "arcgis"
   icon_pack = "custom"
   name = "Arc GIS"
   description = "gut"

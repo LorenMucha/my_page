@@ -88,11 +88,11 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = ""
+email = " "
 phone = "(+49) 1575/0286721"
 
 contact_links = [
- {icon = "twitter", icon_pack = "fab", name = "DM", link = "https://twitter.com/SandSloper"},
+ {icon = "twitter", icon_pack = "fab", name = "Twitter", link = "https://twitter.com/SandSloper"},
  {icon = "instagram", icon_pack = "fab", name = "Instagram", link = "https://www.instagram.com/kieselsloper/?hl=de"},
 ]
 
@@ -102,7 +102,7 @@ contact_links = [
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "49.447080", longitude = "11.063060"}
+# coordinates = {latitude = "49.447080", longitude = "11.063060"}
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
