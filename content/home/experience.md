@@ -29,10 +29,10 @@ date_format = "02/2006"
   
   Aufgaben: 
 
-  * Entwicklung und Design von Webservices
-  * Frontends
-  * DevOps
-  * Penetrationstests
+  * Entwicklung und Konzeption von Web-Anwendungen für den Bidirektionalen Datenaustausch unter Einsatz von Design Pattern
+  * DevOps für die Continuous Integration
+  * Arbeit als Security Engineering mit automatisierten Pentests, SAST-Scans
+  * Technologien: Spring Boot, Angular, MongoDB, MySQL,Jenkins, PostgreSql, Groovy, Python, Kafka, Kotlin
   """
 
 [[experience]]
@@ -46,8 +46,10 @@ date_format = "02/2006"
   
   Aufgaben:
 
-  * Weiterentwicklung des WebGIS <a href="/project/ioermonitor/">IÖR-Monitor</a>
-  * Entwicklung der <a href="https://github.com/LorenMucha/Monitor-API" target="_blank">Monitor API<a/>, dazugehöriger Web-Processing-Services und einer Nutzerverwaltung
+  * Implementierung und Architektur des Web-GIS <a href="/project/ioermonitor/">Monitor der Siedlungs- und Freiraumentwicklung</a>
+  * Einführung einer Nutzerverwaltung
+  * Entwicklung von Web-Processing-Services zur räumliche Berechnungen von Indikatorwerten im Rahmen des <a href="http://sora-projekt.de/">SoRa-Forschungsprojektes</a> und Nutzung innerhalb der <a href="https://github.com/LorenMucha/Monitor-API">Monitor API</a>
+  * Technologien: PHP, Python, JavaScript, MySQL, PostgreSQL, React, R
   """
 
 [[experience]]
@@ -61,8 +63,9 @@ date_format = "02/2006"
   
   Aufgaben:
 
-  * Entwicklung eines Web-Processing-Services zur Berechnung von räumlichen Indikatorwerten
-  * Weiterentwicklung des in der Bachelorarbeit implementierten Prototypen einer <a href="https://github.com/LorenMucha/IOER-Monitor-App" target="_blank">IÖR-Monitor App<a/>
+  * Weiterentwicklung des in der Bachelorarbeit implementierten Prototypen einer <a href="https://github.com/LorenMucha/IOER-Monitor-App"/>IÖR-Monitor Android App</a>
+  * Implementierung einer REST-API zur Verwaltung von OGC Diensten
+  * Technologien: Python, JavaScript, MySQL, PostgreSQL, Java
   """
 
 [[experience]]
@@ -78,6 +81,7 @@ date_format = "02/2006"
   Aufgaben:
 
   * Entwicklung eines _Plug-In_ für die GIS-Software _ArcGIS_, zur Berechnung von Kernflächen in Städten
+  * Technologien: Python, PostgreSQL, R
   """
   
 +++

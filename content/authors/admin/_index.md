@@ -27,9 +27,9 @@ social:
   link: https://github.com/lorenmucha
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: facebook
+  icon_pack: fab
+  link: https://www.facebook.com/laurent.delagrimpe
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "lorenmucha@gmail.com"
@@ -39,8 +39,6 @@ highlight_name: false
 
 ---
 
-Ich arbeite seit Juni 2019 für die <a href="https://datev.de" target="_blank">DATEV eG</a> in Nürnberg als Full Stack Softwareentwickler. Vorher war ich für das [Leibniz Institut für ökologische Raumentwicklung](https://link) als Wissenschaftlicher Mitarbeiter tätig. 
+Mein Name ist Loren Mucha und ich arbeite seit Juni 2019 für die <a href="https://datev.de" target="_blank">DATEV eG</a> in Nürnberg als Full Stack Softwareentwickler. Vorher war ich für das [Leibniz Institut für ökologische Raumentwicklung](https://link) als Wissenschaftlicher Mitarbeiter tätig. Meinen Master habe ich an der TU Dresden im Bereich Geoinformatik absolviert.
 
-In meiner Freizeit versuche ich, soweit es meine Zeit zulässt, auch an privaten Projekten zu arbeiten und neue Technologien auszuprobieren. 
-
-Nebenbei bin ich leidenschaftlicher Kletterer und Radfahrer, wobei mich hier vor allem das MTB in seinen Bann gezogen hat. Am liebsten kombiniere ich Sport mit dem Reisen, um neue Herausforderungen zu finden und auch den persönlichen Horizont zu erweitern. Neben dem Sport spiele ich noch Klavier und koche sehr gerne für Freunde.
+In meiner Freizeit versuche ich, soweit es meine Zeit zulässt, auch privat an Projekten zu arbeiten und neue Technologien auszuprobieren. Nebenbei bin ich leidenschaftlicher Kletterer und Radfahrer.
