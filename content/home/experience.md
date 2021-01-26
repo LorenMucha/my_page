@@ -19,7 +19,7 @@ date_format = "02/2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Full Stack Softwareentwickler und Security Engineer"
+  title = "Full Stack Softwareentwickler"
   company = "DATEV eG"
   company_url = "https://datev.de"
   location = "Nürnberg"
@@ -29,8 +29,8 @@ date_format = "02/2006"
   
   Aufgaben: 
 
-  * Entwicklung und Konzeption von Web-Anwendungen für den Bidirektionalen Datenaustausch unter Einsatz von Design Pattern
-  * DevOps für die Continuous Integration
+  * Entwicklung und Konzeption von Web-Anwendungen für den Bidirektionalen Datenaustausch
+  * DevOps für Continuous Integration
   * Arbeit als Security Engineering mit automatisierten Pentests, SAST-Scans
   * Technologien: Spring Boot, Angular, MongoDB, MySQL,Jenkins, PostgreSql, Groovy, Python, Kafka, Kotlin
   """
@@ -48,7 +48,7 @@ date_format = "02/2006"
 
   * Implementierung und Architektur des Web-GIS <a href="/project/ioermonitor/">Monitor der Siedlungs- und Freiraumentwicklung</a>
   * Einführung einer Nutzerverwaltung
-  * Entwicklung von Web-Processing-Services zur räumliche Berechnungen von Indikatorwerten im Rahmen des <a href="http://sora-projekt.de/">SoRa-Forschungsprojektes</a> und Nutzung innerhalb der <a href="https://github.com/LorenMucha/Monitor-API">Monitor API</a>
+  * Entwicklung von Web-Processing-Services zur räumlichen Berechnungen von Indikatorwerten im Rahmen des <a href="http://sora-projekt.de/">SoRa-Forschungsprojektes</a> und Nutzung innerhalb der <a href="https://github.com/LorenMucha/Monitor-API">Monitor API</a>
   * Technologien: PHP, Python, JavaScript, MySQL, PostgreSQL, React, R
   """
 

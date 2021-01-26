@@ -39,6 +39,7 @@ highlight_name: false
 
 ---
 
-Mein Name ist Loren Mucha und ich arbeite seit Juni 2019 für die <a href="https://datev.de" target="_blank">DATEV eG</a> in Nürnberg als Full Stack Softwareentwickler. Vorher war ich für das [Leibniz Institut für ökologische Raumentwicklung](https://link) als Wissenschaftlicher Mitarbeiter tätig. Meinen Master habe ich an der TU Dresden im Bereich Geoinformatik absolviert.
+Seit Juni 2019 arbeite ich für die <a href="https://datev.de" target="_blank">DATEV eG</a> in Nürnberg als Full Stack Softwareentwickler.
+Vorher war ich für das [Leibniz Institut für ökologische Raumentwicklung](https://link) als Wissenschaftlicher Mitarbeiter tätig. Mir ist es wichtig sich immer weiterzuentwickeln und nie stehen zu bleiben, um Software oder Architekturen effizienter und nach den aktuellen Best Practices entwickeln zu können.
 
 In meiner Freizeit versuche ich, soweit es meine Zeit zulässt, auch privat an Projekten zu arbeiten und neue Technologien auszuprobieren. Nebenbei bin ich leidenschaftlicher Kletterer und Radfahrer.
