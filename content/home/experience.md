@@ -29,10 +29,11 @@ date_format = "02/2006"
   
   Aufgaben: 
 
-  * Entwicklung und Konzeption von Web-Anwendungen für den Bidirektionalen Datenaustausch
-  * DevOps für Continuous Integration
-  * Arbeit als Security Engineering mit automatisierten Pentests, SAST-Scans
-  * Technologien: Spring Boot, Angular, MongoDB, MySQL,Jenkins, PostgreSql, Groovy, Python, Kafka, Kotlin
+* Konzeption und Entwicklung von API’s für den Bidirektionalen Datenaustausch zwischen On-Premises und externen Partnersystemen mit Spring Reactive und MVC
+* Entwicklung von Frontends mit Angular
+* DevOps für Continuous Integration und Delivery
+* Arbeit als Security Engineering mit automatisierten Pentests,
+SAST-Scans
   """
 
 [[experience]]
@@ -46,10 +47,9 @@ date_format = "02/2006"
   
   Aufgaben:
 
-  * Implementierung und Architektur des Web-GIS <a href="/project/ioermonitor/">Monitor der Siedlungs- und Freiraumentwicklung</a>
-  * Einführung einer Nutzerverwaltung
-  * Entwicklung von Web-Processing-Services zur räumlichen Berechnungen von Indikatorwerten im Rahmen des <a href="http://sora-projekt.de/">SoRa-Forschungsprojektes</a> und Nutzung innerhalb der <a href="https://github.com/LorenMucha/Monitor-API">Monitor API</a>
-  * Technologien: PHP, Python, JavaScript, MySQL, PostgreSQL, React, R
+  * Implementierung und Architektur des Web-GIS <i><a href="/project/ioermonitor/">Monitor der Siedlungs- und Freiraumentwicklung</a></i>, mit einem React Frontend und Python/PHP Backend
+  * Entwicklung und Bereitstellung von Web-Processing-Services zur räumliche Berechnungen von Indikatorwerten als <i><a href="https://github.com/LorenMucha/Monitor-API">API</a></i> im Rahmen des <i><a href="http://sora-projekt.de/">SoRa-Forschungsprojektes</a></i>
+  * Betreuung von Masterarbeiten
   """
 
 [[experience]]
@@ -63,9 +63,8 @@ date_format = "02/2006"
   
   Aufgaben:
 
-  * Weiterentwicklung des in der Bachelorarbeit implementierten Prototypen einer <a href="https://github.com/LorenMucha/IOER-Monitor-App"/>IÖR-Monitor Android App</a>
-  * Implementierung einer REST-API zur Verwaltung von OGC Diensten
-  * Technologien: Python, JavaScript, MySQL, PostgreSQL, Java
+  * Design und Umsetzung einer Android App zur Interaktion mit Intikatorkarten
+  * Konzeption und Umsetzung einer Webanwendung, zur Verwaltung von <i>OGC</i> Diensten mit Flask und React
   """
 
 [[experience]]
@@ -80,8 +79,8 @@ date_format = "02/2006"
   
   Aufgaben:
 
-  * Entwicklung eines _Plug-In_ für die GIS-Software _ArcGIS_, zur Berechnung von Kernflächen in Städten
-  * Technologien: Python, PostgreSQL, R
+  * Entwicklung eines Python Plug-In für die GIS-Software <i>ArcGIS</i>, zur Berechnung von Kernflächen in Städten
+  * Automatisierte Generierung von Indikatorkarten und Bereitstellung über den <i>MapServer</i>
   """
   
 +++
